@@ -33,7 +33,7 @@ class Googlesignin extends CI_Controller {
 		 
 		// 添加授權範圍，參考 https://developers.google.com/identity/protocols/googlescopes
 		$client->addScope(['https://www.googleapis.com/auth/userinfo.profile']);
-		$client->setRedirectUri("http://localhost/Codeigniter/index.php/googlesignin/oauthcallback");
+		$client->setRedirectUri("http://localhost/web1/googlesignin/oauthcallback");
 		$url = $client->createAuthUrl();
 		header("Location:{$url}");
 	}
@@ -46,7 +46,7 @@ class Googlesignin extends CI_Controller {
 		$client->setAuthConfig(__DIR__.'/googleoauth/client_secret_382692752093-d65kkvham1nfrhclorlvt25ogsoj53a9.apps.googleusercontent.com.json');
 		$client->setAccessType("offline");        // offline access
 		$client->setIncludeGrantedScopes(true);   // incremental auth
-		$client->setRedirectUri("http://localhost/Codeigniter/index.php/googlesignin/oauthcallback");
+		$client->setRedirectUri("http://localhost/web1/googlesignin/oauthcallback");
 		
 		// 使用者認證後，可取得 access_token 
 		if (isset($_GET['code'])) 
@@ -59,7 +59,7 @@ class Googlesignin extends CI_Controller {
 			}
 		 
 			$_SESSION['google']['access_token'] = $client->getAccessToken();
-			$redirect_uri = 'http://localhost/Codeigniter/';
+			$redirect_uri = 'http://localhost/web1/';
 			header('Location: ' . filter_var($redirect_uri, FILTER_SANITIZE_URL));
 		}
 	}

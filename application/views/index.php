@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>The Calm Website Template | Home </title>
+<title><?php echo $this->lang->line('website_title'); ?> | <?php echo $this->lang->line('menu_home'); ?> </title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
@@ -84,11 +84,11 @@
 		</div>
 		<div class="h_right">
 			<ul class="menu">
-				<li class="active"><a href="<?php echo base_url(); ?>"><?php echo $this->lang->line('page_home'); ?></a></li>
-				<li><a href="about"><?php echo $this->lang->line('page_about'); ?></a></li>
-				<li><a href="portfolio"><?php echo $this->lang->line('page_portfolio'); ?></a></li>
-				<li><a href="blog"><?php echo $this->lang->line('page_blog'); ?></a></li>
-				<li><a href="contact"><?php echo $this->lang->line('page_contact'); ?></a></li>
+				<li class="active"><a href="<?php echo base_url(); ?>"><?php echo $this->lang->line('menu_home'); ?></a></li>
+				<li><a href="about"><?php echo $this->lang->line('menu_about'); ?></a></li>
+				<li><a href="portfolio"><?php echo $this->lang->line('menu_portfolio'); ?></a></li>
+				<li><a href="blog"><?php echo $this->lang->line('menu_blog'); ?></a></li>
+				<li><a href="contact"><?php echo $this->lang->line('menu_contact'); ?></a></li>
 			</ul>
 			<div id="sb-search" class="sb-search">
 				<form>
@@ -105,11 +105,11 @@
 			<!-- start smart_nav * -->
 	        <nav class="nav">
 	            <ul class="nav-list">
-	                <li class="nav-item"><a href="">Home</a></li>
-	                <li class="nav-item"><a href="about">About</a></li>
-	                <li class="nav-item"><a href="portfolio">Portfolio</a></li>
-	                <li class="nav-item"><a href="blog">Blog</a></li>
-	                <li class="nav-item"><a href="contact">Contact</a></li>
+	                <li class="nav-item"><a href="<?php echo base_url(); ?>"><?php echo $this->lang->line('menu_home'); ?></a></li>
+	                <li class="nav-item"><a href="about"><?php echo $this->lang->line('menu_about'); ?></a></li>
+	                <li class="nav-item"><a href="portfolio"><?php echo $this->lang->line('menu_portfolio'); ?></a></li>
+	                <li class="nav-item"><a href="blog"><?php echo $this->lang->line('menu_blog'); ?></a></li>
+	                <li class="nav-item"><a href="contact"><?php echo $this->lang->line('menu_contact'); ?></a></li>
 	                <div class="clear"></div>
 	            </ul>
 	        </nav>
@@ -155,24 +155,24 @@
 			 	<h2>Lorem Ipsum is simply dummy text of the printing and industry</h2>
 			 	<img src="images/zoom.jpg" title="image-name">
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic</p>
-				<a class="btn" href="details.html">Read more</a>
+				<a class="btn" href="details">Read more</a>
 			</div>
 		</div>
 		<!-- end popup -->
 		<!-- start gallery  -->
 			<div class="container">
 					<ul id="filters" class="clearfix">
-						<li><span class="filter active" data-filter="app card icon logo web"><?php echo $this->lang->line('page_all'); ?></span></li> /
-						<li><span class="filter" data-filter="app card logo">design</span></li> /
-						<li><span class="filter" data-filter="card app web icon">branding</span></li> /
-						<li><span class="filter" data-filter="icon web app">graphic</span></li> /
-						<li><span class="filter" data-filter="logo app"><?php echo $this->lang->line('page_animation'); ?></span></li> /
-						<li><span class="filter" data-filter="web app card logo icon">illustration</span></li> /
-						<li><span class="filter" data-filter="web app logo card">photography</span></li>
+						<li><span class="filter active" data-filter="app card icon logo web com"><?php echo $this->lang->line('home_all'); ?></span></li> /
+						<li><span class="filter" data-filter="com"><?php echo $this->lang->line('home_company'); ?></span></li> /
+						<li><span class="filter" data-filter="cart"><?php echo $this->lang->line('home_cart'); ?></span></li> /
+						<li><span class="filter" data-filter="icon web app"><?php echo $this->lang->line('home_blog'); ?></span></li> /
+						<li><span class="filter" data-filter="logo app"><?php echo $this->lang->line('home_onepage'); ?></span></li> /
+						<li><span class="filter" data-filter="web app card logo icon"><?php echo $this->lang->line('home_illustration'); ?></span></li> /
+						<li><span class="filter" data-filter="web app logo card"><?php echo $this->lang->line('home_photography'); ?></span></li>
 					</ul>
 		<div id="portfoliolist">
 			<a class="popup-with-zoom-anim" href="#small-dialog">
-				<div class="portfolio logo1" data-cat="logo">
+				<div class="portfolio logo" data-cat="logo">
 					<div class="portfolio-wrapper">				
 							<img src="assets/images/pic1.jpg"  alt="Image 2" />
 						<div class="label">
@@ -186,7 +186,7 @@
 				</div>		
 			</a>
 			<a class="popup-with-zoom-anim" href="#small-dialog">
-				<div class="portfolio app" data-cat="app">
+				<div class="portfolio com" data-cat="com">
 					<div class="portfolio-wrapper">			
 							<img src="assets/images/pic2.jpg"  alt="Image 2" />
 						<div class="label">
@@ -214,7 +214,7 @@
 				</div>				
 			</a>
 			<a class="popup-with-zoom-anim" href="#small-dialog">
-				<div class="portfolio card" data-cat="card">
+				<div class="portfolio cart" data-cat="cart">
 					<div class="portfolio-wrapper">			
 							<img src="assets/images/pic4.jpg"  alt="Image 2" />
 						<div class="label">
@@ -228,7 +228,7 @@
 				</div>	
 			</a>
 			<a class="popup-with-zoom-anim" href="#small-dialog">	
-				<div class="portfolio app" data-cat="app">
+				<div class="portfolio com" data-cat="com">
 					<div class="portfolio-wrapper">
 							<img src="assets/images/pic5.jpg"  alt="Image 2" />
 						<div class="label">
@@ -242,7 +242,7 @@
 				</div>			
 			</a>
 			<a class="popup-with-zoom-anim" href="#small-dialog">
-				<div class="portfolio card" data-cat="card">
+				<div class="portfolio cart" data-cat="cart">
 					<div class="portfolio-wrapper">			
 							<img src="assets/images/pic6.jpg"  alt="Image 2" />
 						<div class="label">
@@ -256,7 +256,7 @@
 				</div>	
 			</a>
 			<a class="popup-with-zoom-anim" href="#small-dialog">
-				<div class="portfolio card" data-cat="card">
+				<div class="portfolio cart" data-cat="cart">
 					<div class="portfolio-wrapper">			
 							<img src="assets/images/pic7.jpg"  alt="Image 2" />
 						<div class="label">
@@ -270,7 +270,7 @@
 				</div>	
 			</a>
 			<a class="popup-with-zoom-anim" href="#small-dialog">
-				<div class="portfolio logo1" data-cat="logo">
+				<div class="portfolio logo" data-cat="logo">
 					<div class="portfolio-wrapper">			
 							<img src="assets/images/pic8.jpg"  alt="Image 2" />
 						<div class="label">
@@ -284,7 +284,7 @@
 				</div>																																							
 			</a>
 			<a class="popup-with-zoom-anim" href="#small-dialog">
-				<div class="portfolio app" data-cat="app">
+				<div class="portfolio com" data-cat="com">
 					<div class="portfolio-wrapper">			
 							<img src="assets/images/pic9.jpg"  alt="Image 2" />
 						<div class="label">

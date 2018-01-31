@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>The Calm Website Template | Blog </title>
+<title><?php echo $this->lang->line('website_title'); ?> | <?php echo $this->lang->line('blog_title'); ?> </title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
@@ -17,11 +17,11 @@
 		</div>
 		<div class="h_right">
 			<ul class="menu">
-				<li><a href="<?php echo base_url(); ?>"><?php echo $this->lang->line('page_home'); ?></a></li>
-				<li><a href="about"><?php echo $this->lang->line('page_about'); ?></a></li>
-				<li><a href="portfolio"><?php echo $this->lang->line('page_portfolio'); ?></a></li>
-				<li class="active"><a href="blog"><?php echo $this->lang->line('page_blog'); ?></a></li>
-				<li><a href="contact"><?php echo $this->lang->line('page_contact'); ?></a></li>
+				<li><a href="<?php echo base_url(); ?>"><?php echo $this->lang->line('menu_home'); ?></a></li>
+				<li><a href="about"><?php echo $this->lang->line('menu_about'); ?></a></li>
+				<li><a href="portfolio"><?php echo $this->lang->line('menu_portfolio'); ?></a></li>
+				<li class="active"><a href="blog"><?php echo $this->lang->line('menu_blog'); ?></a></li>
+				<li><a href="contact"><?php echo $this->lang->line('menu_contact'); ?></a></li>
 			</ul>
 			<div id="sb-search" class="sb-search">
 				<form>
@@ -38,11 +38,11 @@
 			<!-- start smart_nav * -->
 	        <nav class="nav">
 	            <ul class="nav-list">
-	                <li class="nav-item"><a href="<?php echo base_url(); ?>"><?php echo $this->lang->line('page_home'); ?></a></li>
-	                <li class="nav-item"><a href="index.php/about"><?php echo $this->lang->line('page_about'); ?></a></li>
-	                <li class="nav-item"><a href="index.php/portfolio"><?php echo $this->lang->line('page_about'); ?></a></li>
-	                <li class="nav-item"><a href="index.php/blog"><?php echo $this->lang->line('page_blog'); ?></a></li>
-	                <li class="nav-item"><a href="index.php/contact"><?php echo $this->lang->line('page_contact'); ?></a></li>
+	                <li class="nav-item"><a href="<?php echo base_url(); ?>"><?php echo $this->lang->line('menu_home'); ?></a></li>
+	                <li class="nav-item"><a href="about"><?php echo $this->lang->line('menu_about'); ?></a></li>
+	                <li class="nav-item"><a href="portfolio"><?php echo $this->lang->line('menu_about'); ?></a></li>
+	                <li class="nav-item"><a href="blog"><?php echo $this->lang->line('menu_blog'); ?></a></li>
+	                <li class="nav-item"><a href="contact"><?php echo $this->lang->line('menu_contact'); ?></a></li>
 	                <div class="clear"></div>
 	            </ul>
 	        </nav>
@@ -57,7 +57,7 @@
 <div class="slider_bg">
 <div class="wrap">
 	<div class="slider">
-		<h2>blog</h2>
+		<h2><?php echo $this->lang->line('blog_title'); ?></h2>
 		<h3>What we Think, latest news</h3>
 	</div>
 </div>

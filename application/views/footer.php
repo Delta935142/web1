@@ -3,7 +3,7 @@
 				<div class="footer">
 					<div class="span_of_4">
 						<div class="span1_of_4">
-							<h4><?php echo $this->lang->line('page_about'); ?></h4>
+							<h4><?php echo $this->lang->line('footer_about'); ?></h4>
 							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry .....</p>
 							<span>Address</span>
 							<p class="top">500 Lorem Ipsum Dolor Sit,</p>
@@ -22,7 +22,7 @@
 							</div>
 						</div>
 						<div class="span1_of_4">
-							<h4><?php echo $this->lang->line('page_latestposts'); ?></h4>
+							<h4><?php echo $this->lang->line('footer_latestposts'); ?></h4>
 							<span>Fusce scelerisque massa vitae</span>
 							<p>25 april 2013</p>
 							<span>Pellentesque bibendum ante</span>
@@ -31,7 +31,7 @@
 							<p>25 april 2013</p>
 						</div>
 						<div class="span1_of_4">
-							<h4><?php echo $this->lang->line('page_latestcomments'); ?></h4>
+							<h4><?php echo $this->lang->line('footer_latestcomments'); ?></h4>
 							<span class="bg">It is a long established fact that a reader will looking layout.</span>
 							<span class="bg top">There are many variations of passages of Lorem Ipsum available words.</span>
 							<span class="bg">It is a long established fact that a reader will looking layout.</span>
@@ -58,12 +58,12 @@
 					<div class="footer_top">
 						<div class="f_nav1">
 							<ul>
-								<li><a href="<?php echo base_url(); ?>"><?php echo $this->lang->line('page_home'); ?></a></li>
-								<li><a href="about"><?php echo $this->lang->line('page_about'); ?></a></li>
-								<li><a href="portfolio"><?php echo $this->lang->line('page_portfolio'); ?></a></li>
-								<li><a href="blog"><?php echo $this->lang->line('page_blog'); ?></a></li>
-								<li><a href="features"><?php echo $this->lang->line('page_features'); ?></a></li>
-								<li><a href="contact"><?php echo $this->lang->line('page_contact'); ?></a></li>
+								<li><a href="<?php echo base_url(); ?>"><?php echo $this->lang->line('menu_home'); ?></a></li>
+								<li><a href="about"><?php echo $this->lang->line('menu_about'); ?></a></li>
+								<li><a href="portfolio"><?php echo $this->lang->line('menu_portfolio'); ?></a></li>
+								<li><a href="blog"><?php echo $this->lang->line('menu_blog'); ?></a></li>
+								<li><a href="features"><?php echo $this->lang->line('menu_features'); ?></a></li>
+								<li><a href="contact"><?php echo $this->lang->line('menu_contact'); ?></a></li>
 							</ul>
 						</div>
 						<div class="copy">
