@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+	RewriteBase /
+	RewriteCond $1 !^(index\.php|images|js|css|assets|robots\.txt|$)
+	RewriteRule ^(.*)$ /web1/index.php/$1 [L,QSA]
+</IfModule>
