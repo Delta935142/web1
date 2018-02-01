@@ -161,15 +161,15 @@
 		<!-- end popup -->
 		<!-- start gallery  -->
 			<div class="container">
-					<ul id="filters" class="clearfix">
-						<li><span class="filter active" data-filter="app card icon logo web com"><?php echo $this->lang->line('home_all'); ?></span></li> /
-						<li><span class="filter" data-filter="com"><?php echo $this->lang->line('home_company'); ?></span></li> /
-						<li><span class="filter" data-filter="cart"><?php echo $this->lang->line('home_cart'); ?></span></li> /
-						<li><span class="filter" data-filter="icon web app"><?php echo $this->lang->line('home_blog'); ?></span></li> /
-						<li><span class="filter" data-filter="logo app"><?php echo $this->lang->line('home_onepage'); ?></span></li> /
-						<li><span class="filter" data-filter="web app card logo icon"><?php echo $this->lang->line('home_illustration'); ?></span></li> /
-						<li><span class="filter" data-filter="web app logo card"><?php echo $this->lang->line('home_photography'); ?></span></li>
-					</ul>
+				<ul id="filters" class="clearfix">
+					<li><span class="filter active" data-filter="app card icon logo web com"><?php echo $this->lang->line('home_all'); ?></span></li> /
+					<li><span class="filter" data-filter="com"><?php echo $this->lang->line('home_company'); ?></span></li> /
+					<li><span class="filter" data-filter="cart"><?php echo $this->lang->line('home_cart'); ?></span></li> /
+					<li><span class="filter" data-filter="icon web app"><?php echo $this->lang->line('home_blog'); ?></span></li> /
+					<li><span class="filter" data-filter="logo app"><?php echo $this->lang->line('home_onepage'); ?></span></li> /
+					<li><span class="filter" data-filter="web app card logo icon"><?php echo $this->lang->line('home_illustration'); ?></span></li> /
+					<li><span class="filter" data-filter="web app logo card"><?php echo $this->lang->line('home_photography'); ?></span></li>
+				</ul>
 		<div id="portfoliolist">
 			<a class="popup-with-zoom-anim" href="#small-dialog">
 				<div class="portfolio logo" data-cat="logo">
