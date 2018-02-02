@@ -150,19 +150,27 @@
 <div class="wrap">
 	<div class="main">
 		<!-- start popup -->
-		<div id="small-dialog" class="mfp-hide">
+		<div id="small-dialog" class="mfp-hide start-popup">
 			<div class="pop_up">
 			 	<h2>Lorem Ipsum is simply dummy text of the printing and industry</h2>
-			 	<img src="images/zoom.jpg" title="image-name">
+			 	<img src="assets/images/zoom.jpg" title="image-name">
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic</p>
 				<a class="btn" href="details">Read more</a>
+			</div>
+		</div>
+		<div id="opencart" class="mfp-hide start-popup">
+			<div class="pop_up">
+			 	<h2>Lorem Ipsum is simply dummy text of the printing and industry</h2>
+			 	<img src="assets/images/opencart-bg.png" title="image-name">
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic</p>
+				<a class="btn" href="http://localhost/Demo/opencart3.0/" target="_blank">Demo</a>
 			</div>
 		</div>
 		<!-- end popup -->
 		<!-- start gallery  -->
 			<div class="container">
 				<ul id="filters" class="clearfix">
-					<li><span class="filter active" data-filter="app card icon logo web com"><?php echo $this->lang->line('home_all'); ?></span></li> /
+					<li><span class="filter active" data-filter="app cart icon logo web com"><?php echo $this->lang->line('home_all'); ?></span></li> /
 					<li><span class="filter" data-filter="com"><?php echo $this->lang->line('home_company'); ?></span></li> /
 					<li><span class="filter" data-filter="cart"><?php echo $this->lang->line('home_cart'); ?></span></li> /
 					<li><span class="filter" data-filter="icon web app"><?php echo $this->lang->line('home_blog'); ?></span></li> /
@@ -213,14 +221,14 @@
 					</div>
 				</div>				
 			</a>
-			<a class="popup-with-zoom-anim" href="#small-dialog">
+			<a class="popup-with-zoom-anim" href="#opencart">
 				<div class="portfolio cart" data-cat="cart">
 					<div class="portfolio-wrapper">			
-							<img src="assets/images/pic4.jpg"  alt="Image 2" />
+							<img src="assets/images/opencart-sm.png"  alt="Image 2" />
 						<div class="label">
 							<div class="label-text">
-								<p class="text-title">Typography Company</p>
-								<span class="text-category">Business card</span>
+								<p class="text-title">Opencart</p>
+								<span class="text-category"><?php echo $this->lang->line('home_cart'); ?></span>
 							</div>
 							<div class="label-bg"></div>
 						</div>

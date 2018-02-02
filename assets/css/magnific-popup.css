@@ -319,7 +319,7 @@ img.mfp-img {
   cursor: pointer; }
 /******** Plans List *******/
 /* Styles for dialog window */
-#small-dialog {
+.start-popup {
 	background: white;
 	padding: 3%;
 	text-align: left;
