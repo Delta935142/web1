@@ -168,187 +168,187 @@
 		</div>
 		<!-- end popup -->
 		<!-- start gallery  -->
-			<div class="container">
-				<ul id="filters" class="clearfix">
-					<li><span class="filter active" data-filter="app cart icon logo web com"><?php echo $this->lang->line('home_all'); ?></span></li> /
-					<li><span class="filter" data-filter="com"><?php echo $this->lang->line('home_company'); ?></span></li> /
-					<li><span class="filter" data-filter="cart"><?php echo $this->lang->line('home_cart'); ?></span></li> /
-					<li><span class="filter" data-filter="icon web app"><?php echo $this->lang->line('home_blog'); ?></span></li> /
-					<li><span class="filter" data-filter="logo app"><?php echo $this->lang->line('home_onepage'); ?></span></li> /
-					<li><span class="filter" data-filter="web app card logo icon"><?php echo $this->lang->line('home_illustration'); ?></span></li> /
-					<li><span class="filter" data-filter="web app logo card"><?php echo $this->lang->line('home_photography'); ?></span></li>
-				</ul>
-		<div id="portfoliolist">
-			<a class="popup-with-zoom-anim" href="#small-dialog">
-				<div class="portfolio logo" data-cat="logo">
-					<div class="portfolio-wrapper">				
-							<img src="assets/images/pic1.jpg"  alt="Image 2" />
-						<div class="label">
-							<div class="label-text">
-								<p class="text-title">Bird Document</p>
-								<span class="text-category">Logo</span>
+		<div class="container">
+			<ul id="filters" class="clearfix">
+				<li><span class="filter active" data-filter="app cart icon logo web com"><?php echo $this->lang->line('home_all'); ?></span></li> /
+				<li><span class="filter" data-filter="com"><?php echo $this->lang->line('home_company'); ?></span></li> /
+				<li><span class="filter" data-filter="cart"><?php echo $this->lang->line('home_cart'); ?></span></li> /
+				<li><span class="filter" data-filter="icon web app"><?php echo $this->lang->line('home_blog'); ?></span></li> /
+				<li><span class="filter" data-filter="logo app"><?php echo $this->lang->line('home_onepage'); ?></span></li> /
+				<li><span class="filter" data-filter="web app card logo icon"><?php echo $this->lang->line('home_illustration'); ?></span></li> /
+				<li><span class="filter" data-filter="web app logo card"><?php echo $this->lang->line('home_photography'); ?></span></li>
+			</ul>
+			<div id="portfoliolist">
+				<a class="popup-with-zoom-anim" href="#small-dialog">
+					<div class="portfolio logo" data-cat="logo">
+						<div class="portfolio-wrapper">				
+								<img src="assets/images/pic1.jpg"  alt="Image 2" />
+							<div class="label">
+								<div class="label-text">
+									<p class="text-title">Bird Document</p>
+									<span class="text-category">Logo</span>
+								</div>
+								<div class="label-bg"></div>
 							</div>
-							<div class="label-bg"></div>
 						</div>
-					</div>
-				</div>		
-			</a>
-			<a class="popup-with-zoom-anim" href="#small-dialog">
-				<div class="portfolio com" data-cat="com">
-					<div class="portfolio-wrapper">			
-							<img src="assets/images/pic2.jpg"  alt="Image 2" />
-						<div class="label">
-							<div class="label-text">
-								<p class="text-title">Visual Infography</p>
-								<span class="text-category">APP</span>
+					</div>		
+				</a>
+				<a class="popup-with-zoom-anim" href="#small-dialog">
+					<div class="portfolio com" data-cat="com">
+						<div class="portfolio-wrapper">			
+								<img src="assets/images/pic2.jpg"  alt="Image 2" />
+							<div class="label">
+								<div class="label-text">
+									<p class="text-title">Visual Infography</p>
+									<span class="text-category">APP</span>
+								</div>
+								<div class="label-bg"></div>
 							</div>
-							<div class="label-bg"></div>
 						</div>
-					</div>
-				</div>		
-			</a>
-			<a class="popup-with-zoom-anim" href="#small-dialog">
-				<div class="portfolio web" data-cat="web">
-					<div class="portfolio-wrapper">						
-							<img src="assets/images/pic3.jpg"  alt="Image 2" />
-						<div class="label">
-							<div class="label-text">
-								<p class="text-title">Sonor's Design</p>
-								<span class="text-category">Web design</span>
+					</div>		
+				</a>
+				<a class="popup-with-zoom-anim" href="#small-dialog">
+					<div class="portfolio web" data-cat="web">
+						<div class="portfolio-wrapper">						
+								<img src="assets/images/pic3.jpg"  alt="Image 2" />
+							<div class="label">
+								<div class="label-text">
+									<p class="text-title">Sonor's Design</p>
+									<span class="text-category">Web design</span>
+								</div>
+								<div class="label-bg"></div>
 							</div>
-							<div class="label-bg"></div>
 						</div>
-					</div>
-				</div>				
-			</a>
-			<a class="popup-with-zoom-anim" href="#opencart">
-				<div class="portfolio cart" data-cat="cart">
-					<div class="portfolio-wrapper">			
-							<img src="assets/images/opencart-sm.png"  alt="Image 2" />
-						<div class="label">
-							<div class="label-text">
-								<p class="text-title">Opencart</p>
-								<span class="text-category"><?php echo $this->lang->line('home_cart'); ?></span>
+					</div>				
+				</a>
+				<a class="popup-with-zoom-anim" href="#opencart">
+					<div class="portfolio cart" data-cat="cart">
+						<div class="portfolio-wrapper">			
+								<img src="assets/images/opencart-sm.png"  alt="Image 2" />
+							<div class="label">
+								<div class="label-text">
+									<p class="text-title">Opencart</p>
+									<span class="text-category"><?php echo $this->lang->line('home_cart'); ?></span>
+								</div>
+								<div class="label-bg"></div>
 							</div>
-							<div class="label-bg"></div>
 						</div>
-					</div>
-				</div>	
-			</a>
-			<a class="popup-with-zoom-anim" href="#small-dialog">	
-				<div class="portfolio com" data-cat="com">
-					<div class="portfolio-wrapper">
-							<img src="assets/images/pic5.jpg"  alt="Image 2" />
-						<div class="label">
-							<div class="label-text">
-								<p class="text-title">Weatherette</p>
-								<span class="text-category">APP</span>
+					</div>	
+				</a>
+				<a class="popup-with-zoom-anim" href="#small-dialog">	
+					<div class="portfolio com" data-cat="com">
+						<div class="portfolio-wrapper">
+								<img src="assets/images/pic5.jpg"  alt="Image 2" />
+							<div class="label">
+								<div class="label-text">
+									<p class="text-title">Weatherette</p>
+									<span class="text-category">APP</span>
+								</div>
+								<div class="label-bg"></div>
 							</div>
-							<div class="label-bg"></div>
 						</div>
-					</div>
-				</div>			
-			</a>
-			<a class="popup-with-zoom-anim" href="#small-dialog">
-				<div class="portfolio cart" data-cat="cart">
-					<div class="portfolio-wrapper">			
-							<img src="assets/images/pic6.jpg"  alt="Image 2" />
-						<div class="label">
-							<div class="label-text">
-								<p class="text-title">BMF</p>
-								<span class="text-category">Business card</span>
+					</div>			
+				</a>
+				<a class="popup-with-zoom-anim" href="#small-dialog">
+					<div class="portfolio cart" data-cat="cart">
+						<div class="portfolio-wrapper">			
+								<img src="assets/images/pic6.jpg"  alt="Image 2" />
+							<div class="label">
+								<div class="label-text">
+									<p class="text-title">BMF</p>
+									<span class="text-category">Business card</span>
+								</div>
+								<div class="label-bg"></div>
 							</div>
-							<div class="label-bg"></div>
 						</div>
-					</div>
-				</div>	
-			</a>
-			<a class="popup-with-zoom-anim" href="#small-dialog">
-				<div class="portfolio cart" data-cat="cart">
-					<div class="portfolio-wrapper">			
-							<img src="assets/images/pic7.jpg"  alt="Image 2" />
-						<div class="label">
-							<div class="label-text">
-								<p class="text-title">Techlion</p>
-								<span class="text-category">Business card</span>
+					</div>	
+				</a>
+				<a class="popup-with-zoom-anim" href="#small-dialog">
+					<div class="portfolio cart" data-cat="cart">
+						<div class="portfolio-wrapper">			
+								<img src="assets/images/pic7.jpg"  alt="Image 2" />
+							<div class="label">
+								<div class="label-text">
+									<p class="text-title">Techlion</p>
+									<span class="text-category">Business card</span>
+								</div>
+								<div class="label-bg"></div>
 							</div>
-							<div class="label-bg"></div>
 						</div>
-					</div>
-				</div>	
-			</a>
-			<a class="popup-with-zoom-anim" href="#small-dialog">
-				<div class="portfolio logo" data-cat="logo">
-					<div class="portfolio-wrapper">			
-							<img src="assets/images/pic8.jpg"  alt="Image 2" />
-						<div class="label">
-							<div class="label-text">
-								<p class="text-title">KittyPic</p>
-								<span class="text-category">Logo</span>
+					</div>	
+				</a>
+				<a class="popup-with-zoom-anim" href="#small-dialog">
+					<div class="portfolio logo" data-cat="logo">
+						<div class="portfolio-wrapper">			
+								<img src="assets/images/pic8.jpg"  alt="Image 2" />
+							<div class="label">
+								<div class="label-text">
+									<p class="text-title">KittyPic</p>
+									<span class="text-category">Logo</span>
+								</div>
+								<div class="label-bg"></div>
 							</div>
-							<div class="label-bg"></div>
 						</div>
-					</div>
-				</div>																																							
-			</a>
-			<a class="popup-with-zoom-anim" href="#small-dialog">
-				<div class="portfolio com" data-cat="com">
-					<div class="portfolio-wrapper">			
-							<img src="assets/images/pic9.jpg"  alt="Image 2" />
-						<div class="label">
-							<div class="label-text">
-								<p class="text-title">Graph Plotting</p>
-								<span class="text-category">APP</span>
+					</div>																																							
+				</a>
+				<a class="popup-with-zoom-anim" href="#small-dialog">
+					<div class="portfolio com" data-cat="com">
+						<div class="portfolio-wrapper">			
+								<img src="assets/images/pic9.jpg"  alt="Image 2" />
+							<div class="label">
+								<div class="label-text">
+									<p class="text-title">Graph Plotting</p>
+									<span class="text-category">APP</span>
+								</div>
+								<div class="label-bg"></div>
 							</div>
-							<div class="label-bg"></div>
 						</div>
-					</div>
-				</div>		
-			</a>
-			<a class="popup-with-zoom-anim" href="#small-dialog">												
-				<div class="portfolio web" data-cat="web">
-					<div class="portfolio-wrapper">						
-							<img src="assets/images/pic10.jpg"  alt="Image 2" />
-						<div class="label">
-							<div class="label-text">
-								<p class="text-title">Student Guide</p>
-								<span class="text-category">Web design</span>
+					</div>		
+				</a>
+				<a class="popup-with-zoom-anim" href="#small-dialog">												
+					<div class="portfolio web" data-cat="web">
+						<div class="portfolio-wrapper">						
+								<img src="assets/images/pic10.jpg"  alt="Image 2" />
+							<div class="label">
+								<div class="label-text">
+									<p class="text-title">Student Guide</p>
+									<span class="text-category">Web design</span>
+								</div>
+								<div class="label-bg"></div>
 							</div>
-							<div class="label-bg"></div>
 						</div>
-					</div>
-				</div>	
-			</a>
-			<a class="popup-with-zoom-anim" href="#small-dialog">																
-				<div class="portfolio icon" data-cat="icon">
-					<div class="portfolio-wrapper">
-							<img src="assets/images/pic11.jpg"  alt="Image 2" />
-						<div class="label">
-							<div class="label-text">
-								<p class="text-title">Scoccer</p>
-								<span class="text-category">Icon</span>
+					</div>	
+				</a>
+				<a class="popup-with-zoom-anim" href="#small-dialog">																
+					<div class="portfolio icon" data-cat="icon">
+						<div class="portfolio-wrapper">
+								<img src="assets/images/pic11.jpg"  alt="Image 2" />
+							<div class="label">
+								<div class="label-text">
+									<p class="text-title">Scoccer</p>
+									<span class="text-category">Icon</span>
+								</div>
+								<div class="label-bg"></div>
 							</div>
-							<div class="label-bg"></div>
 						</div>
-					</div>
-				</div>			
-			</a>
-			<a class="popup-with-zoom-anim" href="#small-dialog">																																																													
-				<div class="portfolio icon" data-cat="icon">
-					<div class="portfolio-wrapper">						
-							<img src="assets/images/pic12.jpg"  alt="Image 2" />
-						<div class="label">
-							<div class="label-text">
-								<p class="text-title">3D Map</p>
-								<span class="text-category">Icon</span>
+					</div>			
+				</a>
+				<a class="popup-with-zoom-anim" href="#small-dialog">																																																													
+					<div class="portfolio icon" data-cat="icon">
+						<div class="portfolio-wrapper">						
+								<img src="assets/images/pic12.jpg"  alt="Image 2" />
+							<div class="label">
+								<div class="label-text">
+									<p class="text-title">3D Map</p>
+									<span class="text-category">Icon</span>
+								</div>
+								<div class="label-bg"></div>
 							</div>
-							<div class="label-bg"></div>
 						</div>
-					</div>
-				</div>		
-			</a>	
-		</div>
-	</div><!-- end container -->
+					</div>		
+				</a>	
+			</div>
+		</div><!-- end container -->
 	</div>
 </div>
 </div>
